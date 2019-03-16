@@ -353,20 +353,6 @@
 <text x="-5.08" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-5.08" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="22-23-2021" library_version="2">
-<description>&lt;b&gt;KK® 254 Solid Header, Vertical, with Friction Lock, 2 Circuits, Tin (Sn) Plating&lt;/b&gt;&lt;p&gt;&lt;a href =http://www.molex.com/pdm_docs/sd/022232021_sd.pdf&gt;Datasheet &lt;/a&gt;</description>
-<wire x1="-2.54" y1="3.175" x2="2.54" y2="3.175" width="0.254" layer="21"/>
-<wire x1="2.54" y1="3.175" x2="2.54" y2="1.27" width="0.254" layer="21"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="2.54" y1="-3.175" x2="-2.54" y2="-3.175" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="-3.175" x2="-2.54" y2="1.27" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="3.175" width="0.254" layer="21"/>
-<wire x1="-2.54" y1="1.27" x2="2.54" y2="1.27" width="0.254" layer="21"/>
-<pad name="1" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
-<pad name="2" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
-<text x="-2.54" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
-<text x="-2.54" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
-</package>
 </packages>
 </library>
 <library name="con-lstb" urn="urn:adsk.eagle:library:162">
@@ -680,42 +666,6 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="19" y="-24" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="19" y="-24" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BAT" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="" x="9" y="-40">
-<attribute name="MF" value="MOLEX" x="9" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="9" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="9" y="-40" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="9" y="-40" size="1.778" layer="27" display="off"/>
-</element>
-<element name="SOURCE" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="" x="9" y="-56">
-<attribute name="MF" value="MOLEX" x="9" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="9" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="9" y="-56" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="9" y="-56" size="1.778" layer="27" display="off"/>
-</element>
-<element name="CHR-OUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="" x="9" y="-72">
-<attribute name="MF" value="MOLEX" x="9" y="-72" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="9" y="-72" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="9" y="-72" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="9" y="-72" size="1.778" layer="27" display="off"/>
-</element>
-<element name="SRC-OUT" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="" x="9" y="-88">
-<attribute name="MF" value="MOLEX" x="9" y="-88" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="9" y="-88" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="9" y="-88" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="9" y="-88" size="1.778" layer="27" display="off"/>
-</element>
-<element name="CHR-IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="" x="9" y="-104">
-<attribute name="MF" value="MOLEX" x="9" y="-104" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="9" y="-104" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="9" y="-104" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="9" y="-104" size="1.778" layer="27" display="off"/>
-</element>
-<element name="SRC-IN" library="con-molex" library_urn="urn:adsk.eagle:library:165" package="22-23-2021" value="" x="9" y="-120">
-<attribute name="MF" value="MOLEX" x="9" y="-120" size="1.778" layer="27" display="off"/>
-<attribute name="MPN" value="22-23-2021" x="9" y="-120" size="1.778" layer="27" display="off"/>
-<attribute name="OC_FARNELL" value="1462926" x="9" y="-120" size="1.778" layer="27" display="off"/>
-<attribute name="OC_NEWARK" value="25C3832" x="9" y="-120" size="1.778" layer="27" display="off"/>
-</element>
 </elements>
 <signals>
 <signal name="S$28">
@@ -765,10 +715,6 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="DTH22" pad="4"/>
 <contactref element="ADS1115" pad="2"/>
-<contactref element="BAT" pad="1"/>
-<contactref element="CHR-OUT" pad="1"/>
-<contactref element="SRC-OUT" pad="1"/>
-<contactref element="ADS1115" pad="10"/>
 <wire x1="49.01" y1="53.77" x2="56.63" y2="51.23" width="0" layer="19" extent="1-1"/>
 <wire x1="43.93" y1="53.77" x2="49.01" y2="53.77" width="0" layer="19" extent="1-1"/>
 <wire x1="38.85" y1="51.23" x2="43.93" y2="53.77" width="0" layer="19" extent="1-1"/>
@@ -778,10 +724,6 @@ design rules under a new name.</description>
 <wire x1="13.45" y1="53.77" x2="18.53" y2="51.23" width="0" layer="19" extent="1-1"/>
 <wire x1="15.81" y1="-8" x2="18.53" y2="51.23" width="0" layer="19" extent="1-1"/>
 <wire x1="10.11" y1="-24" x2="15.81" y2="-8" width="0" layer="19" extent="1-1"/>
-<wire x1="7.73" y1="-40" x2="10.11" y2="-24" width="0" layer="19" extent="1-1"/>
-<wire x1="30.43" y1="-24" x2="10.11" y2="-24" width="0" layer="19" extent="1-1"/>
-<wire x1="7.73" y1="-72" x2="7.73" y2="-40" width="0" layer="19" extent="1-1"/>
-<wire x1="7.73" y1="-88" x2="7.73" y2="-72" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="K1" pad="1"/>
@@ -792,58 +734,40 @@ design rules under a new name.</description>
 <contactref element="K1" pad="2"/>
 <contactref element="K1" pad="4"/>
 <contactref element="DTH22" pad="1"/>
-<contactref element="ADS1115" pad="1"/>
-<contactref element="SRC-OUT" pad="2"/>
-<wire x1="7.57" y1="-24" x2="10.27" y2="-88" width="0" layer="19" extent="1-1"/>
-<wire x1="8.19" y1="-8" x2="7.57" y2="-24" width="0" layer="19" extent="1-1"/>
-<wire x1="8.37" y1="53.77" x2="8.19" y2="-8" width="0" layer="19" extent="1-1"/>
-<wire x1="10.91" y1="53.77" x2="8.37" y2="53.77" width="0" layer="19" extent="1-1"/>
+<wire x1="8.37" y1="53.77" x2="10.91" y2="53.77" width="0" layer="19" extent="1-1"/>
+<wire x1="8.19" y1="-8" x2="8.37" y2="53.77" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DTH22-DATA">
 <contactref element="DTH22" pad="2"/>
 <contactref element="K1" pad="7"/>
 <wire x1="10.73" y1="-8" x2="15.99" y2="51.23" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="SCL0">
-<contactref element="ADS1115" pad="3"/>
-<contactref element="K1" pad="5"/>
-<wire x1="12.65" y1="-24" x2="13.45" y2="51.23" width="0" layer="19" extent="1-1"/>
+<signal name="VCC">
+<contactref element="ADS1115" pad="1"/>
 </signal>
-<signal name="ADDR">
+<signal name="SCL">
+<contactref element="ADS1115" pad="3"/>
+</signal>
+<signal name="SDA">
+<contactref element="ADS1115" pad="4"/>
+</signal>
+<signal name="VDD">
 <contactref element="ADS1115" pad="5"/>
 </signal>
 <signal name="ALRT">
 <contactref element="ADS1115" pad="6"/>
 </signal>
-<signal name="SDA0">
-<contactref element="K1" pad="3"/>
-<contactref element="ADS1115" pad="4"/>
-<wire x1="15.19" y1="-24" x2="10.91" y2="51.23" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SRC-GND">
-<contactref element="SOURCE" pad="1"/>
-<contactref element="CHR-IN" pad="1"/>
-<contactref element="SRC-IN" pad="1"/>
-<contactref element="ADS1115" pad="8"/>
-<wire x1="7.73" y1="-104" x2="7.73" y2="-120" width="0" layer="19" extent="1-1"/>
-<wire x1="7.73" y1="-56" x2="7.73" y2="-104" width="0" layer="19" extent="1-1"/>
-<wire x1="25.35" y1="-24" x2="7.73" y2="-56" width="0" layer="19" extent="1-1"/>
-</signal>
-<signal name="SRC-VCC">
-<contactref element="SOURCE" pad="2"/>
-<contactref element="CHR-IN" pad="2"/>
-<contactref element="SRC-IN" pad="2"/>
+<signal name="A00">
 <contactref element="ADS1115" pad="7"/>
-<wire x1="10.27" y1="-104" x2="10.27" y2="-120" width="0" layer="19" extent="1-1"/>
-<wire x1="10.27" y1="-56" x2="10.27" y2="-104" width="0" layer="19" extent="1-1"/>
-<wire x1="22.81" y1="-24" x2="10.27" y2="-56" width="0" layer="19" extent="1-1"/>
 </signal>
-<signal name="BAT-VCC">
-<contactref element="BAT" pad="2"/>
-<contactref element="CHR-OUT" pad="2"/>
+<signal name="A01">
+<contactref element="ADS1115" pad="8"/>
+</signal>
+<signal name="A02">
 <contactref element="ADS1115" pad="9"/>
-<wire x1="10.27" y1="-40" x2="10.27" y2="-72" width="0" layer="19" extent="1-1"/>
-<wire x1="27.89" y1="-24" x2="10.27" y2="-40" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="A03">
+<contactref element="ADS1115" pad="10"/>
 </signal>
 </signals>
 </board>
